@@ -9,6 +9,8 @@ UniConnect serves to enrich the university experience by providing a robust plat
   - [Method 1: Manual Installation](#method-1-manual-installation)
   - [Method 2: Docker Installation](#method-2-docker-installation)
 - [Usage](#usage)
+- [Configuration](#configuration)
+- [Contributing](#contributing)
 
 ## Prerequisites
 
@@ -83,6 +85,7 @@ The application will be accessible on port 80 by default.
      - After logging in, go to the "Profile" section.
      - Fill in details such as `Education`, `Experience`, and `Social` links.
      - Click "Create Profile" to save your information.
+     - **Note**: Before adding details like experience, education, or courses, ensure you have created your profile.
    - **Updating Profile**:
      - You can update your profile details anytime by navigating to the "Profile" section and clicking "Edit Profile."
    - **Viewing Profiles**:
@@ -103,6 +106,7 @@ The application will be accessible on port 80 by default.
      - Navigate to the "Community" or "Groups" sections.
      - Click on "Create Post", write your content, and optionally upload an image.
      - Click "Post" to share it with others.
+     - **Note**: You must create or join a group before you can post. Posts cannot be made outside of a group context.
    - **Interacting with Posts**:
      - Like or comment on posts by other users.
      - To like a post, click the "Like" button. To unlike, click the "Unlike" button.
@@ -145,4 +149,8 @@ The application will be accessible on port 80 by default.
 #### 9. **Feedback and Support**
    - If you encounter any issues or have suggestions, please use the "Contact Us" form or the support section within the application to reach out to our team.
 
+## Configuration
+Explain how users can configure your application, including environment variables, configuration files, or any other customization options. For example, you might explain how to set up a database connection, email service, or API keys.
 
+## Contributing
+Explain how others can contribute to your project. Include guidelines for reporting issues, making pull requests, and any coding standards you may have. Encourage contributions that align with the project’s goals of enhancing the university experience.
