@@ -41,7 +41,7 @@ const EventDetails = () => {
                 <div className="row">
                     <div className="col-md-8 offset-md-2">
                         <div className="card event-card shadow-lg">
-                            <img src={`http://127.0.0.1:3000/${SelectedEvent.image}`} alt={SelectedEvent.name} className="card-img-top event-img" />
+                            <img src={`${process.env.REACT_APP_API_URL}/${SelectedEvent.image}`} alt={SelectedEvent.name} className="card-img-top event-img" />
                             <div className="card-body">
                                 <h2 className="card-title text-teal">{SelectedEvent.name}</h2>
                                 <p className="card-text"><strong>Date:</strong> {new Date(SelectedEvent.eventDate).toLocaleString()}</p>

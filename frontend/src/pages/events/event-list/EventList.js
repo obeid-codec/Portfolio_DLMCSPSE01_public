@@ -83,7 +83,7 @@ const EventList = () => {
                                     {events.map(event => (
                                         <div className="col-md-6 col-lg-4" key={event._id}>
                                             <div className="card event-card mt-3">
-                                                <img src={`http://127.0.0.1:3000/${event.image}`} alt={event.name} className="card-img-top event-img" />
+                                                <img src={`${process.env.REACT_APP_API_URL}/${event.image}`} alt={event.name} className="card-img-top event-img" />
                                                 <div className="card-body">
                                                     <h4 className="card-title">{event.name}</h4>
                                                     <p className="card-text">DATE: {new Date(event.eventDate).toLocaleString()}</p>
