@@ -202,7 +202,7 @@ const PostList = () => {
                                                         <div className="col-md-8">
                                                             <div className="row">
                                                                 <div className="col-md-10">
-                                                                    <img src={`${process.env.REACT_APP_API_URL}/${post.image}`} alt="" className="img-fluid d-block m-auto mb-2" />
+                                                                    <img src={`${process.env.REACT_APP_IMAGES_URL}/${post.image}`} alt="" className="img-fluid d-block m-auto mb-2" />
                                                                 </div>
                                                             </div>
                                                             <p>{post.content}</p>

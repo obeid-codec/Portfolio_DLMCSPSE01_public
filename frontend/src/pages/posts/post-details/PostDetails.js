@@ -60,7 +60,7 @@ const PostDetails = () => {
                                                     </div>
                                                     <div className="col-md-10">
                                                         <div className="col-md-6">
-                                                            <img src={`${process.env.REACT_APP_API_URL}/${selectedPost.image}`} alt="" className="img-fluid d-block m-auto" />
+                                                            <img src={`${process.env.REACT_APP_IMAGES_URL}/${selectedPost.image}`} alt="" className="img-fluid d-block m-auto" />
                                                         </div>
                                                         <p>{selectedPost.text}</p>
                                                         <small className="text-muted">{new Date(selectedPost.timestamp).toLocaleString()}</small>
