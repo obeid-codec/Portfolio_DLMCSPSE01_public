@@ -1,0 +1,48 @@
+.text-teal {
+    color: #20c997;
+}
+
+.btn-teal {
+    background-color: #20c997;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-teal:hover {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.card.event-card {
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card.event-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-img-top.event-img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.btn-outline-primary, .btn-outline-danger {
+    border-radius: 50px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-primary:hover, .btn-outline-danger:hover {
+    background-color: #20c997;
+    color: white;
+}

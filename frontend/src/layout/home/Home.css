@@ -1,0 +1,51 @@
+/* ----------------- Landing Page ------------------ */
+.landing-page {
+    background: white url("../../assets/img/bg-image.jpg") no-repeat scroll center;
+    background-size: cover;
+    height: 100vh;
+    color: #c8cfcf;
+}
+
+.wrapper {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+
+.display-4 {
+    font-weight: bold;
+    color: #20c997;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn-register, .btn-login {
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-register {
+    background-color: #ffffff;
+    color: #20c997;
+    border: 2px solid #20c997;
+}
+
+.btn-register:hover {
+    background-color: #20c997;
+    color: #ffffff;
+}
+
+.btn-login {
+    background-color: #20c997;
+    color: #ffffff;
+    border: 2px solid #20c997;
+}
+
+.btn-login:hover {
+    background-color: #17a2b8;
+    color: #ffffff;
+}

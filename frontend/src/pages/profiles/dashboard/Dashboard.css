@@ -1,0 +1,57 @@
+.text-teal {
+    color: #20c997;
+}
+
+.dashboard-header {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-group .btn {
+    margin: 0 5px;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table thead {
+    background-color: #20c997;
+}
+
+.table thead th {
+    border: none;
+}
+
+.table tbody td {
+    vertical-align: middle;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.btn-teal {
+    background-color: #20c997;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-teal:hover {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.experience-section,
+.education-section,
+.course-section {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,12 @@
+/* Your Global Custom styles of Application */
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #f0f7f7;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

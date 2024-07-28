@@ -1,0 +1,48 @@
+version: '3.9'
+
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: frontend  
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - app-network
+    env_file:
+      - frontend/.env.production
+
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: backend  
+    expose:
+      - "3000:3000"
+    depends_on:
+      - mongo
+    networks:
+      - app-network
+    env_file:
+      - backend/.env
+
+  mongo:
+    image: mongo:latest
+    container_name: mongo
+    expose:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - app-network
+
+networks:
+  app-network:
+
+volumes:
+  mongo-data:
+

@@ -1,0 +1,40 @@
+version: '3.9'
+
+services:
+  frontend:
+    image: obeidcodec/portfolio_dlmcspse01_frontend:v1.0
+    container_name: frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - app-network
+
+
+  backend:
+    image: obeidcodec/portfolio_dlmcspse01_backend:v1.0
+    container_name: backend
+    expose:
+      - "3000:3000"
+    depends_on:
+      - mongo
+    networks:
+      - app-network
+
+
+  mongo:
+    image: mongo:latest
+    container_name: mongo
+    expose:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - app-network
+
+networks:
+  app-network:
+
+volumes:
+  mongo-data:
