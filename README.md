@@ -9,8 +9,7 @@ UniConnect serves to enrich the university experience by providing a robust plat
   - [Method 1: Manual Installation](#method-1-manual-installation)
   - [Method 2: Docker Installation](#method-2-docker-installation)
 - [Usage](#usage)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
+
 
 ## Prerequisites
 
@@ -149,8 +148,4 @@ The application will be accessible on port 80 by default.
 #### 9. **Feedback and Support**
    - If you encounter any issues or have suggestions, please use the "Contact Us" form or the support section within the application to reach out to our team.
 
-## Configuration
-Explain how users can configure your application, including environment variables, configuration files, or any other customization options. For example, you might explain how to set up a database connection, email service, or API keys.
 
-## Contributing
-Explain how others can contribute to your project. Include guidelines for reporting issues, making pull requests, and any coding standards you may have. Encourage contributions that align with the project’s goals of enhancing the university experience.
