@@ -145,7 +145,4 @@ The application will be accessible on port 80 by default.
    - **Admin Controls**:
      - Admin users have additional privileges such as managing users, posts, and events. Admins can be designated using the `MakeAdmin` method.
 
-#### 9. **Feedback and Support**
-   - If you encounter any issues or have suggestions, please use the "Contact Us" form or the support section within the application to reach out to our team.
-
 
